@@ -12,18 +12,47 @@ syriac_letters = [
     ("", "We", "audio_CG05.mp3", "13:29", "13:31"), # combined letters?
     ("", "You (pl.)", "audio_CG05.mp3", "13:41", "13:45"),
     ("", "They", "audio_CG05.mp3", "13:49", "14:14"),
-    ("", "", "audio_CG05.mp3", "14:15", "14:18"),
 
+    # Deteached Possessive Pronouns    
+    ("", "Of mine", "audio_CG05.mp3", "11:32", "11:37"),
+    ("", "Of yours (m)", "audio_CG05.mp3", "11:47", "11:51"),
+    ("", "Of yours (f)", "audio_CG05.mp3", "12:41", "12:43"),
+    ("", "Of his", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "Of hers", "audio_CG05.mp3", "13:20", "13:25"),
+    ("", "Of ours", "audio_CG05.mp3", "13:29", "13:31"),
+    ("", "Of yours (pl.)", "audio_CG05.mp3", "13:41", "13:45"),
+    ("", "Of theirs", "audio_CG05.mp3", "13:49", "14:14"),
 
-    # Chapter 5, subjunctive
-    ("", "", "audio_CG05.mp3", "11:32", "11:37"),
-    ("", "", "audio_CG05.mp3", "11:47", "11:51"),
-    ("", "", "audio_CG05.mp3", "12:41", "12:43"),
-    ("", "", "audio_CG05.mp3", "12:44", "12:46"), # problem none, i guess a taw + yoth = new symbol 
-    ("", "", "audio_CG05.mp3", "13:20", "13:25"),
-    ("", "", "audio_CG05.mp3", "13:29", "13:31"), # combined letters?
-    ("", "", "audio_CG05.mp3", "13:41", "13:45"),
-    ("", "", "audio_CG05.mp3", "13:49", "14:14"),
-    ("", "", "audio_CG05.mp3", "14:15", "14:18"),
+    # Demonstrative Pronouns 
+    ("", "This", "audio_CG05.mp3", "11:32", "11:37"),
+    ("", "That (m)", "audio_CG05.mp3", "11:47", "11:51"),
+    ("", "That (f)", "audio_CG05.mp3", "12:41", "12:43"),
+    ("", "These", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "Those", "audio_CG05.mp3", "13:20", "13:25"),
 
+        
+    # Interrogative Pronouns 
+    ("", "Who", "audio_CG05.mp3", "11:32", "11:37"),
+    ("", "What", "audio_CG05.mp3", "11:47", "11:51"),
+    ("", "Which", "audio_CG05.mp3", "12:41", "12:43"),
+    ("", "When", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "Where", "audio_CG05.mp3", "13:20", "13:25"),
+    ("", "Why", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "How", "audio_CG05.mp3", "13:20", "13:25"),
+
+    # General Pronouns 
+    ("", "Who", "audio_CG05.mp3", "11:32", "11:37"),
+    ("", "What", "audio_CG05.mp3", "11:47", "11:51"),
+    ("", "Which", "audio_CG05.mp3", "12:41", "12:43"),
+    ("", "When", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "Where", "audio_CG05.mp3", "13:20", "13:25"),
+    ("", "Why", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "How", "audio_CG05.mp3", "13:20", "13:25"),    
+    ("", "Who", "audio_CG05.mp3", "11:32", "11:37"),
+    ("", "What", "audio_CG05.mp3", "11:47", "11:51"),
+    ("", "Which", "audio_CG05.mp3", "12:41", "12:43"),
+    ("", "When", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "Where", "audio_CG05.mp3", "13:20", "13:25"),
+    ("", "Why", "audio_CG05.mp3", "12:44", "12:46"), 
+    ("", "How", "audio_CG05.mp3", "13:20", "13:25"),
 ]
