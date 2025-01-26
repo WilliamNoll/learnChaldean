@@ -133,7 +133,8 @@ def convert_to_seconds(time_str):
 def pronounce():
     """Play a specific segment of the pre-saved audio file."""
     try:
-        audio_file = words[random_word][2]  # Audio file path
+        #audio_file = words[random_word][2]  # Audio file path
+        audio_file = f"audio/{words[random_word][2]}"  # Audio file path
         start_time_str = words[random_word][3]  # Start time in seconds
         end_time_str = words[random_word][4]  # End time in seconds
 
