@@ -4,16 +4,28 @@ syriac_letters = [
 
     # Chapter 4, Pronouns
     # Page 21, Chaldean Grammar
-    ("ܐܵܢܵܐ", "I", "audio_CG04.mp3", "11:32", "11:37"),
-    ("ܐܵܝܸܬ", "You (m)", "audio_CG04.mp3", "11:47", "11:51"),
-    ("ܐܵܝܲܬܝ", "You (f)", "audio_CG04.mp3", "12:41", "12:43"),
-    ("ܐܵܗܘܼ", "He", "audio_CG04.mp3", "12:44", "12:46"), # problem none, i guess a taw + yoth = new symbol 
-    ("ܐܵܗܝܼ", "She", "audio_CG04.mp3", "13:20", "13:25"),
-    ("ܐܲܚܢܝܼܢ݇", "We", "audio_CG04.mp3", "13:29", "13:31"), # combined letters?
-    ("ܐܲܟܼܬܘܼܢ", "You (pl.)", "audio_CG04.mp3", "13:41", "13:45"),
-    ("ܐܲܗ݇ܢܝܼ", "They", "audio_CG04.mp3", "13:49", "14:14"),
+    ("ܐܵܢܵܐ", "I", "audio_CG04.mp3", "1:24", "1:29"),
+    ("ܐܵܝܸܬ", "You (m)", "audio_CG04.mp3", "1:30", "1:37"),
+    ("ܐܵܝܲܬܝ", "You (f)", "audio_CG04.mp3", "1:38", "1:42"),
+    ("ܐܵܗܘܼ", "He", "audio_CG04.mp3", "1:51", "1:55"), # problem none, i guess a taw + yoth = new symbol 
+    ("ܐܵܗܝܼ", "She", "audio_CG04.mp3", "1:55", "1:58"),
+    ("ܐܲܚܢܝܼܢ݇", "We", "audio_CG04.mp3", "2:00", "2:08"), # combined letters?
+    ("ܐܲܟܼܬܘܼܢ", "You (pl.)", "audio_CG04.mp3", "2:08", "2:14"),
+    ("ܐܲܗ݇ܢܝܼ", "They", "audio_CG04.mp3", "2:15", "2:20"),
 
-    # Deteached Possessive Pronouns    
+
+    # Attached Possessive Pronouns  
+    #ctrl+shift+p --> Insert Unicode: Insert --> 25CC for dotted cirlce 
+    ("", "Of mine", "audio_CG04.mp3", "11:32", "11:37"),
+    ("", "Of yours (m)", "audio_CG04.mp3", "11:47", "11:51"),
+    ("", "Of yours (f)", "audio_CG04.mp3", "12:41", "12:43"),
+    ("", "Of his", "audio_CG04.mp3", "12:44", "12:46"), 
+    ("", "Of hers", "audio_CG04.mp3", "13:20", "13:25"),
+    ("", "Of ours", "audio_CG04.mp3", "13:29", "13:31"),
+    ("", "Of yours (pl.)", "audio_CG04.mp3", "13:41", "13:45"),
+    ("", "Of theirs", "audio_CG04.mp3", "13:49", "14:14"),
+
+    # Detached Possessive Pronouns   
     ("ܕܝܼܠܝܼ", "Of mine", "audio_CG04.mp3", "11:32", "11:37"),
     ("ܕܝܼܠܘܼܟܼ", "Of yours (m)", "audio_CG04.mp3", "11:47", "11:51"),
     ("ܕܝܼܠܲܟܼ", "Of yours (f)", "audio_CG04.mp3", "12:41", "12:43"),
@@ -41,16 +53,16 @@ syriac_letters = [
     ("ܕܸܝܟܼ", "How", "audio_CG04.mp3", "13:20", "13:25"),
 
     # General Pronouns 
-    ("", "One", "audio_CG04.mp3", "11:32", "11:37"),
-    ("", "Someone", "audio_CG04.mp3", "11:47", "11:51"),
-    ("", "Some", "audio_CG04.mp3", "12:41", "12:43"),
-    ("", "Each one", "audio_CG04.mp3", "12:44", "12:46"), 
-    ("", "Everyone", "audio_CG04.mp3", "13:20", "13:25"),
-    ("", "Everyone", "audio_CG04.mp3", "12:44", "12:46"), 
-    ("", "Everything", "audio_CG04.mp3", "13:20", "13:25"),    
-    ("", "No one", "audio_CG04.mp3", "11:32", "11:37"),
-    ("", "Nothing", "audio_CG04.mp3", "11:47", "11:51"),
-    ("", "No one", "audio_CG04.mp3", "12:41", "12:43"),
-    ("", "Thing", "audio_CG04.mp3", "12:44", "12:46"), 
-    ("", "So-and-so (m)", "audio_CG04.mp3", "13:20", "13:25"),
+    ("ܚܲܕ݂݇", "One", "audio_CG04.mp3", "11:32", "11:37"),
+    ("ܚܲܕ݂݇ ܐ݇ܢܵܫܵܐ", "Someone", "audio_CG04.mp3", "11:47", "11:51"),
+    ("ܚܲܕ݂݇ܟܡܵܐ", "Some", "audio_CG04.mp3", "12:41", "12:43"),
+    ("ܟܘܼܠ ܐܵܗ݇ܘܵ", "Each one", "audio_CG04.mp3", "12:44", "12:46"), 
+    ("ܟܘܼܠ ܐ݇ܢܵܫܵܐ", "Everyone", "audio_CG04.mp3", "13:20", "13:25"),
+    ("ܟܘܼܠ ܡܵܢܝܼ", "Everyone", "audio_CG04.mp3", "12:44", "12:46"), 
+    ("ܟܘܼܠ ܡܸܢܕܝܼ", "Everything", "audio_CG04.mp3", "13:20", "13:25"),    
+    ("ܟ̮ܘܼ ܐ݇ܢܵܫܵܐ", "No one", "audio_CG04.mp3", "11:32", "11:37"),
+    ("ܟ̮ܘܼ ܡܸܢܕܝܼ", "Nothing", "audio_CG04.mp3", "11:47", "11:51"),
+    ("ܠܵܐܚܲܕ݂݇", "No one", "audio_CG04.mp3", "12:41", "12:43"),
+    ("ܡܸܢܕܝܼ", "Thing", "audio_CG04.mp3", "12:44", "12:46"), 
+    ("ܦ̮ܠܵܢܵܝܵܐ", "So-and-so (m)", "audio_CG04.mp3", "13:20", "13:25"),
 ]

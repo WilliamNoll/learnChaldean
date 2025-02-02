@@ -84,32 +84,33 @@ syriac_letters = [
 
 
 
-    # Page 29, CH 5 Chaldean Grammar    
-    # -----> NEEDS CORRECT audio file and timestamps <-----
-    ("ܐܲܠܵܗܵܐ", "God", "audio_CG02.mp3", 30, 34),
-    ("ܚܲܩܘܼܬܼܵܐ", "truth", "audio_CG02.mp3", 30, 34),
-    ("ܝܼܫܘܿܥ ܡܫܝܼܚܵܐ", "Jesus Christ", "audio_CG02.mp3", 30, 34),
-    ("ܡܢܲܚܡܵܢܵܐ", "resurrector", "audio_CG02.mp3", 30, 34),
-    ("ܡܵܪܵܐ", "Lord", "audio_CG02.mp3", 30, 34),
-    ("ܡܵܪܝܵܐ", "Lord God", "audio_CG02.mp3", 30, 34),
-    ("ܡܲܪܝܲܡ", "Mary", "audio_CG02.mp3", 30, 34),
-    ("ܦܲܓܼܪܵܐ", "body", "audio_CG02.mp3", 30, 34),
+    # Page 29, CH 5 Chaldean Grammar 
+    # -----> FINISHED CORRECT audio file and timestamps <-----
+    # -----> NEEDS DOUBLE CHECKING FOR AUDIO <-----    
+    ("ܐܲܠܵܗܵܐ", "God", "audio_CG05.mp3", "36:57", "36:59"),
+    ("ܚܲܩܘܼܬܼܵܐ", "truth", "audio_CG05.mp3", "36:59", "37:00"),
+    ("ܝܼܫܘܿܥ ܡܫܝܼܚܵܐ", "Jesus Christ", "audio_CG05.mp3", "37:00", "37:04"),
+    ("ܡܢܲܚܡܵܢܵܐ", "resurrector", "audio_CG05.mp3", "37:04", "37:06"),
+    ("ܡܵܪܵܐ", "Lord", "audio_CG05.mp3", "37:08", "37:09"),
+    ("ܡܵܪܝܵܐ", "Lord God", "audio_CG05.mp3", "37:09", "37:21"),
+    ("ܡܲܪܝܲܡ", "Mary", "audio_CG05.mp3", "37:21", "37:22"),
+    ("ܦܲܓܼܪܵܐ", "body", "audio_CG05.mp3", "37:22", "37:24"),
 
         
     # Page 35, CH 6 Chaldean Grammar    
     # -----> NEEDS CORRECT audio file and timestamps <-----
-    ("ܐܲܠܵܗܘܼܬܵܐ", "Divinity", "audio_CG02.mp3", 30, 34),
-    ("ܐ݇ܪܵܙܵܐ", "mystery/mass", "audio_CG02.mp3", 30, 34),
-    ("ܐܲܬܼܪܵܐ", "land/country", "audio_CG02.mp3", 30, 34),
-    ("ܒܵܪܘܿܝܵܐ", "Creator", "audio_CG02.mp3", 30, 34),
-    ("ܓ̮ܸܪܚܵܐ", "cut", "audio_CG02.mp3", 30, 34),
-    ("ܓܘܼܫܡܵܐ", "flesh/substance", "audio_CG02.mp3", 30, 34),
-    ("ܓܼܸܠܜܵܐ", "mistake", "audio_CG02.mp3", 30, 34),
-    ("ܕܸܗܢܵܐ", "oil", "audio_CG02.mp3", 30, 34),
-    ("ܚܲܝܹ̈ܐ", "life", "audio_CG02.mp3", 30, 34),
-    ("ܚܲܡܪܵܐ", "wine", "audio_CG02.mp3", 30, 34),
-    ("ܟܝܵܢܵܐ", "nature", "audio_CG02.mp3", 30, 34),
-    ("ܣܲܒܼܪܵܐ", "hope", "audio_CG02.mp3", 30, 34),
+    ("ܐܲܠܵܗܘܼܬܵܐ", "Divinity", "audio_CG06.mp3", "19:26", "19:28"),
+    ("ܐ݇ܪܵܙܵܐ", "mystery/mass", "audio_CG06.mp3", "19:28", "19:33"),
+    ("ܐܲܬܼܪܵܐ", "land/country", "audio_CG06.mp3", "19:33", "19:36"),
+    ("ܒܵܪܘܿܝܵܐ", "Creator", "audio_CG06.mp3", "19:36", "19:39"),
+    ("ܓ̮ܸܪܚܵܐ", "cut", "audio_CG06.mp3", "19:39", "19:49"),
+    ("ܓܘܼܫܡܵܐ", "flesh/substance", "audio_CG06.mp3", "19:49", "19:53"),
+    ("ܓܼܸܠܜܵܐ", "mistake", "audio_CG06.mp3", "19:53", "20:04"),
+    ("ܕܸܗܢܵܐ", "oil", "audio_CG06.mp3", "20:04", "20:15"),
+    ("ܚܲܝܹ̈ܐ", "life", "audio_CG06.mp3", "20:15", "20:24"),
+    ("ܚܲܡܪܵܐ", "wine", "audio_CG06.mp3", "20:18", "20:24"),
+    ("ܟܝܵܢܵܐ", "nature", "audio_CG06.mp3", "20:24", "20:29"),
+    ("ܣܲܒܼܪܵܐ", "hope", "audio_CG06.mp3", "20:32", "20:35"),
 
 
     # Page 40, CH 7 Chaldean Grammar    

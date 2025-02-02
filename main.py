@@ -3,11 +3,12 @@ from tkinter import messagebox
 from tkinter import ttk
 from random import randint
 import tkinter.font as tkFont
-import vocabulary
+#import vocabulary
 import alphabet
 import nouns
-#import adjectives
-#import verbs
+import adjectives
+import verbs
+import verbs2
 import pygame
 import keyboardEng2Syriac
 import random
@@ -18,7 +19,7 @@ root.geometry("550x600")  # Increased height to accommodate Pronounce button and
 
 # List of letters
 # IMPORTANT: NEED TO TYPE STRINGS WITH FIRST LETTER CAPITALIZED
-syriac_letters = vocabulary.syriac_letters
+syriac_letters = nouns.syriac_letters
 
 words = syriac_letters
 # Get a count of the word list
