@@ -16,14 +16,14 @@ syriac_letters = [
 
     # Attached Possessive Pronouns  
     #ctrl+shift+p --> Insert Unicode: Insert --> 25CC for dotted cirlce 
-    ("", "Of mine", "audio_CG04.mp3", "11:32", "11:37"),
-    ("", "Of yours (m)", "audio_CG04.mp3", "11:47", "11:51"),
-    ("", "Of yours (f)", "audio_CG04.mp3", "12:41", "12:43"),
-    ("", "Of his", "audio_CG04.mp3", "12:44", "12:46"), 
-    ("", "Of hers", "audio_CG04.mp3", "13:20", "13:25"),
-    ("", "Of ours", "audio_CG04.mp3", "13:29", "13:31"),
-    ("", "Of yours (pl.)", "audio_CG04.mp3", "13:41", "13:45"),
-    ("", "Of theirs", "audio_CG04.mp3", "13:49", "14:14"),
+    ("ܝܼ", "My", "audio_CG04.mp3", "5:48", "6:10"),
+    ("‍ܘܼܟܼ", "Your (m)", "audio_CG04.mp3", "6:10", "6:23"),
+    ("ܟܼܵ", "Your (f)", "audio_CG04.mp3", "6:23", "6:29"),
+    ("ܗ◌ܹ", "His", "audio_CG04.mp3", "6:29", "6:36"), 
+    ("ܗ̇◌ܵ", "Hers", "audio_CG04.mp3", "6:36", "6:42"),
+    ("ܢ◌ܲ", "Our", "audio_CG04.mp3", "6:42", "6:46"),
+    ("ܘܿܟܼܘܼܢ", "Your (pl)", "audio_CG04.mp3", "6:46", "6:52"),
+    ("ܝܗܝ◌ܲ", "Their", "audio_CG04.mp3", "6:52", "6:58"),
 
     # Detached Possessive Pronouns   
     ("ܕܝܼܠܝܼ", "Of mine", "audio_CG04.mp3", "11:32", "11:37"),
