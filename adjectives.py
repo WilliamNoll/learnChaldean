@@ -42,27 +42,31 @@ syriac_letters = [
 
     # Page 35, CH 6 Chaldean Grammar    
     # -----> NEEDS CORRECT audio file and timestamps <-----
-    ("ܐܲܠܵܗܵܝܵܐ", "divine", "audio_CG04.mp3", "24:35", "24:39"),
-    ("ܐܲܪܥܵܢܵܝܵܐ", "earthly", "audio_CG04.mp3", "24:39", "24:42"),
-    ("ܦܲܓܼܪܵܢܵܝܵܐ", "bodily", "audio_CG04.mp3", "24:43", "24:47"),
-    ("ܫܡܲܝܵܢܵܐ", "heavenly", "audio_CG04.mp3", "24:46", "25:12"),
+    ("ܐܲܠܵܗܵܝܵܐ", "divine", "audio_CG06.mp3", "20:37", "20:49"),
+    ("ܐܲܪܥܵܢܵܝܵܐ", "earthly", "audio_CG06.mp3", "20:49", "20:54"),
+    ("ܦܲܓܼܪܵܢܵܝܵܐ", "bodily", "audio_CG06.mp3", "20:54", "21:03"),
+    ("ܫܡܲܝܵܢܵܐ", "heavenly", "audio_CG06.mp3", "21:03", "21:07"),
     
 
     # Page 40, CH 7 Chaldean Grammar    
     # -----> NEEDS CORRECT audio file and timestamps <-----
-    ("ܒܹܗܪܵܢܵܐ", "luminous", "audio_CG04.mp3", "24:35", "24:39"),
-    ("ܒܲܜܝܼܠܵܐ", "idle", "audio_CG04.mp3", "24:39", "24:42"),
-    ("ܒܠܝܼܓܵܐ", "busy", "audio_CG04.mp3", "24:43", "24:47"),
-    ("ܒܲܣܝܼܡܵܐ", "pleasant", "audio_CG04.mp3", "24:46", "25:12"),
-    ("ܕܲܗܒܼܵܢܵܝܵܐ", "golden", "audio_CG04.mp3", "24:35", "24:39"),
-    ("ܕܲܗܝܼܢܵܐ", "oily", "audio_CG04.mp3", "24:39", "24:42"),
-    ("ܙܲܪܩܵܐ", "blue", "audio_CG04.mp3", "24:43", "24:47"),
-    ("ܚܲܒܝܼܒܵܐ", "beloved", "audio_CG04.mp3", "24:46", "25:12"),
-    ("ܚܸܡܵܐ", "hot (weather)", "audio_CG04.mp3", "24:35", "24:39"),
-    ("ܚܲܡܝܼܡܵܐ", "hot, warm", "audio_CG04.mp3", "24:39", "24:42"),
-    ("ܚܸܦܝܵܝܵܐ", "barefoot", "audio_CG04.mp3", "24:43", "24:47"),
-    ("ܝܲܩܘܼܪܵܐ", "heavy", "audio_CG04.mp3", "24:46", "25:12"),
-   
+    ("ܒܹܗܪܵܢܵܐ", "luminous", "audio_CG07.mp3", "10:48", "10:56"),
+    ("ܒܲܜܝܼܠܵܐ", "idle", "audio_CG07.mp3", "10:56", "10:58"),
+    ("ܒܠܝܼܓܵܐ", "busy", "audio_CG07.mp3", "10:59", "11:06"),
+    ("ܒܲܣܝܼܡܵܐ", "pleasant", "audio_CG07.mp3", "11:06", "11:10"),
+    ("ܕܲܗܒܼܵܢܵܝܵܐ", "golden", "audio_CG07.mp3", "11:10", "11:16"),
+    ("ܕܲܗܝܼܢܵܐ", "oily", "audio_CG07.mp3", "11:16", "11:22"),
+    ("ܙܲܪܩܵܐ", "blue", "audio_CG07.mp3", "11:22", "11:26"),
+    ("ܚܲܒܝܼܒܵܐ", "beloved", "audio_CG07.mp3", "11:26", "11:31"),
+    ("ܚܸܡܵܐ", "hot (weather)", "audio_CG07.mp3", "11:31", "11:40"),
+    ("ܚܲܡܝܼܡܵܐ", "hot, warm", "audio_CG07.mp3", "11:39", "11:51"),
+    ("ܚܸܦܝܵܝܵܐ", "barefoot", "audio_CG07.mp3", "11:51", "11:54"),
+    ("ܝܲܩܘܼܪܵܐ", "heavy", "audio_CG07.mp3", "11:54", "11:58"),
+    ("ܕܸܡܵܢܵܐ", "bloody", "audio_CG07.mp3", "11:58", "12:03"),
+    ("ܗܲܢܝܼܐܵܐ", "sweet", "audio_CG07.mp3", "12:03", "12:08"),
+    ("ܡܲܪܝܼܪܵܐ", "bitter", "audio_CG07.mp3", "12:08", "12:11"),
+    ("ܥܸܠܝܵܐ", "high", "audio_CG07.mp3", "12:11", "12:13"),
+
 
 
     # Page 49, CH 8 Chaldean Grammar    
