@@ -12,6 +12,9 @@ import verbs2
 import pygame
 import keyboardEng2Syriac
 import random
+import prepositions
+import pronouns
+
 
 # TO DO LIST
 # Nouns Ch 8
@@ -105,14 +108,18 @@ def answer():
     if current_mode == "syriac_to_english":
         correct_answer = words[random_word][1]
         answer_font = syriac_font
+        
+        if user_input == correct_answer:
+            answer_label.config(text=f"Correct! {syriac_word.cget('text')} is {correct_answer}", font=answer_font)
+        else:
+            answer_label.config(text=f"Incorrect! {syriac_word.cget('text')} is NOT {user_input}", font=answer_font)
     else:
         correct_answer = words[random_word][0]
         answer_font = syriac_font
-
-    if my_entry.get() == correct_answer:
-        answer_label.config(text=f"Correct! {syriac_word.cget('text')} is {correct_answer}", font=answer_font)
-    else:
-        answer_label.config(text=f"Incorrect! {syriac_word.cget('text')} is NOT {my_entry.get()}",  font=answer_font)
+        if user_input == correct_answer:
+            answer_label.config(text=f"Correct! {correct_answer} is {syriac_word.cget('text')}", font=answer_font)
+        else:
+            answer_label.config(text=f"Incorrect! {user_input} is NOT {syriac_word.cget('text')}", font=answer_font)
 
 hinter = ""
 hint_count = 0
@@ -183,7 +190,7 @@ def do_key(event):
     else:
         return None
 
-def update_words():
+def update_words(*args):
     """Update the words variable based on user selection."""
     global words, count
     selected_category = category_var.get()
@@ -191,6 +198,14 @@ def update_words():
 
     if selected_category == "Vocabulary":
         words = []
+        #if "Nouns" in selected_subcategories:
+       #     words.extend(nouns.syriac_letters)
+       # if "Adjectives" in selected_subcategories:
+       #     words.extend(adjectives.syriac_letters)
+       # if "Verbs" in selected_subcategories:
+        #    words.extend(verbs.syriac_letters)
+        #if "Pronouns" in selected_subcategories:
+       #     words.extend(vocabulary.syriac_letters)  # Assuming pronouns are in vocabulary.py
         if "Nouns" in selected_subcategories:
             words.extend(nouns.syriac_letters)
         if "Adjectives" in selected_subcategories:
@@ -198,7 +213,11 @@ def update_words():
         if "Verbs" in selected_subcategories:
             words.extend(verbs.syriac_letters)
         if "Pronouns" in selected_subcategories:
-            words.extend(vocabulary.syriac_letters)  # Assuming pronouns are in vocabulary.py
+            words.extend(pronouns.syriac_letters)  # Assuming pronouns are in vocabulary.py
+        if "Prepositions" in selected_subcategories:
+            words.extend(prepositions.syriac_letters)
+        if "Subject Verb Pairs" in selected_subcategories:
+            words.extend(verbs2.syriac_letters)
     elif selected_category == "Conjugations":
         # Implement logic for conjugations
         pass
@@ -216,12 +235,32 @@ category_menu = ttk.Combobox(root, textvariable=category_var, values=["Vocabular
 category_menu.pack(pady=10)
 category_menu.bind("<<ComboboxSelected>>", lambda e: update_words())
 
+
+
 # Create subcategory checkboxes
-subcategory_vars = [StringVar(value="Nouns"), StringVar(value="Adjectives"), StringVar(value="Verbs"), StringVar(value="Pronouns")]
+#subcategory_vars = [StringVar(value="Nouns"), StringVar(value="Adjectives"), StringVar(value="Verbs"), StringVar(value="Pronouns")]
+subcategory_vars = [
+    StringVar(value="Nouns"), 
+    StringVar(value="Adjectives"), 
+    StringVar(value="Verbs"), 
+    StringVar(value="Pronouns"),
+    StringVar(value="Prepositions"),
+    StringVar(value="Subject Verb Pairs")
+]
+#subcategory_frame = Frame(root)
+#subcategory_frame.pack(pady=10)
+#for var in subcategory_vars:
+#    Checkbutton(subcategory_frame, text=var.get(), variable=var, onvalue=var.get(), offvalue="").pack(side=LEFT)
+
+subcategory_names = ["Nouns", "Adjectives", "Verbs", "Pronouns", "Prepositions", "Subject Verb Pairs"]
 subcategory_frame = Frame(root)
 subcategory_frame.pack(pady=10)
+for var, name in zip(subcategory_vars, subcategory_names):
+    Checkbutton(subcategory_frame, text=name, variable=var, onvalue=name, offvalue="").pack(side=LEFT)
+
+# Bind update_words to changes in subcategory_vars
 for var in subcategory_vars:
-    Checkbutton(subcategory_frame, text=var.get(), variable=var, onvalue=var.get(), offvalue="").pack(side=LEFT)
+    var.trace_add("write", update_words)
 
 # Create the question label
 syriac_word = Label(root, text="", font=syriac_font)
