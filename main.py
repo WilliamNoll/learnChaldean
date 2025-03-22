@@ -16,15 +16,6 @@ import prepositions
 import pronouns
 
 
-# TO DO LIST
-# Nouns Ch 8
-# adj ch 8
-# verbs2 like all the of the i am, i can, i have, blah blah.
-# start drafting sentence verb conjugator for 3 letter root verbs
-# start drafting random noun-verb pairer to practice noun/adjective/preposition/pronouns
-
-
-
 root = Tk()
 root.title('Chaldean flashcards')
 root.geometry("550x600")  # Increased height to accommodate Pronounce button and dropdowns
